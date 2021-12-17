@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fc31dedf63.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="app.js" type="text/javascript"></script> 
+    <title>Nui Flame | By Fall Development ( Xisto#0666 and Porto#4255) </title>
+</head>
+<body>
+    <div class = "fundo">
+        <img src="img/flame.png" alt="server" class = "server">
+        <div class="buttons-armas">
+            <div id="arma1" data-element="#escondido1" class="arma1">
+                <p class = "escritaarma1">Five Seven</p>
+                <img src="img/fiveseven.png" alt="" class="five">
+            </div>
+            <div id="fechar" data-element="#escondido1" class="fechar">
+                <button><p class = "fechar"></p></button>
+                <img src="img/x.png" alt="" class="fecharimg">
+            </div>
+            <div id="arma2" data-element="#escondido2" class = "arma2">
+                <p class = "escritaarma2">G36C</p>
+                <img src="img/g36c.png" alt="ga" class="ga">
+                </div>
+            <div id="arma3" data-element="#escondido3" class = "arma3">
+                <p class = "escritaarma3">AK-47</p>
+                <img src="img/ak103.png" alt="ak" class="ak">
+            </div>
+            <div id="arma4" data-element="#escondido4" class = "arma4">
+                <p class = "escritaarma4">TEC9</p>
+                <img src="img/glockrajada.png" alt="glock" class="glock">
+            </div>
+            <div  id="arma5" data-element="#escondido5" class = "arma5">
+                <p class = "escritaarma5">MP5 MK2</p>
+                <img src="img/mp5mk2.png" alt="mp" class="mp">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div id="infos-armas">
+            <div id="escondido1" onclick="createGun('fives')" style="display:none">
+                <p>FIVE SEVEN</p>
+                <img src="img/fiveseven.png">
+                <!-- <button onclick="">FABRICAR</button> -->
+                <button data-action="produzir-five"><b>FABRICAR</b></button>
+            </div>
+            <div id="escondido2" onclick="createGun('g3')" style="display: none;">
+                <p>G36C</p>
+                <img src="img/g36c.png">
+                <button onclick="">FABRICAR</button>
+
+            </div>
+            <div id="escondido3" onclick="createGun('ak47')" style="display: none;">
+                <p>AK 47</p>
+                <img src="img/ak103.png">
+                <button onclick="">FABRICAR</button>
+
+            </div>
+            <div id="escondido4" onclick="createGun('tec')" style="display: none;">
+                <p>TEC NINE</p>
+                <img src="img/glockrajada.png">
+                <button onclick="">FABRICAR</button>
+
+            </div>
+            <div id="escondido5" onclick="createGun('mp5')" style="display: none;">
+                <p>MP5 MK2</p>
+                <img src="img/mp5mk2.png">
+                <button onclick="">FABRICAR</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

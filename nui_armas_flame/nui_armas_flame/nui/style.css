@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap%27');
+* {
+    font-family: "Poppins";
+} 
+body {
+    display: block;
+}
+.fundo{
+    background-color: rgb(24, 24, 24);
+    width: 57.0833333VW;
+    height: 32.6458333vw;
+    position: absolute;
+    margin-left: 21.5vw;
+    top: 8.10416667vw;
+    border-radius: 0.78125vw;
+    border: 0.15625vw solid rgb(255, 0, 0);
+}
+.server{
+    position: absolute;
+    left: 1.5vw;
+    top: 1vw;
+    width: 13vw;
+}
+.five{
+    width: 5.16666667vw;
+    position: absolute;
+    top: 1.25vw;
+    left: 1.30208333vw;
+}
+
+.fechar{
+    width: 1vw;
+    height: 1vw;
+}
+
+.fecharimg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 94%;
+    top: 10px;
+}
+button {
+    background-color: rgb(24, 24, 24); /* Green */
+    border: none;
+    border-radius: 10px;
+    color: rgba(24, 24, 24);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 92.25%;
+}
+.arma1{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 4vw;
+    top: 9vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+
+}
+
+#arma1:checked {
+    background-color: rgb(51, 51, 51);
+}
+.arma1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 0.5vw;
+}
+.escritaarma1{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(30, 29, 29, 0.831);
+    width: 9vw;
+    height: 1.7VW;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1vw;
+    position: absolute;
+    left: 0vw;
+    top:6.3vw;
+    border-bottom-left-radius: 0.5vw ;
+    border-bottom-right-radius: 0.5vw ;
+}
+.ga{
+    width: 5.6875vw;
+    position: absolute;
+    top: 1.25vw;
+    left: 1.30208333vw;
+}
+.arma2{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 14vw;
+    top: 9vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+}
+.arma2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 0.5vw;
+}
+.escritaarma2{
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(30, 29, 29, 0.831);
+        width: 9vw;
+        height: 1.7VW;
+        color: white;
+        font-family: "Poppins";
+        font-size: 1vw;
+        position: absolute;
+        left: 0vw;
+        top:6.3vw;
+        border-bottom-left-radius: 0.5vw ;
+        border-bottom-right-radius: 0.5vw ;
+    
+}
+.ak{
+    width: 5.6875vw;
+    position: absolute;
+    top: 1.25vw;
+    left: 1.30208333vw;
+}
+.arma3{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 24vw;
+    top: 9vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+}
+.arma3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 0.5vw;
+}
+.escritaarma3{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(30, 29, 29, 0.831);
+    width: 9vw;
+    height: 1.7VW;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1vw;
+    position: absolute;
+    left: 0vw;
+    top:6.3vw;
+    border-bottom-left-radius: 0.5vw ;
+    border-bottom-right-radius: 0.5vw ;
+}
+.glock{
+    width: 4.64583333VW;
+    position: absolute;
+    top: 1.5625vw;
+    left: 1.82291667vw;
+}
+.arma4{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 4vw;
+    top: 21vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+}
+.arma4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 0.5vw;
+}
+.escritaarma4{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(30, 29, 29, 0.831);
+    width: 9vw;
+    height: 1.7VW;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1vw;
+    position: absolute;
+    left: 0vw;
+    top:6.3vw;
+    border-bottom-left-radius: 0.5vw ;
+    border-bottom-right-radius: 0.5vw ;
+}
+.mp{
+    width: 5.16666667vw;
+    position: absolute;
+    top: 1.04166667vw;
+    left: 1.30208333vw;
+}
+.arma5{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 14vw;
+    top: 21vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+}
+.arma5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 0.5vw;
+}
+.escritaarma5{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(30, 29, 29, 0.831);
+    width: 9vw;
+    height: 1.7VW;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1vw;
+    position: absolute;
+    left: 0vw;
+    top:6.3vw;
+    border-bottom-left-radius: 0.5vw ;
+    border-bottom-right-radius: 0.5vw ;
+}
+.line { 
+    background-color: rgb(51, 51, 51);
+    height: 22vw;
+    width: 0.1vw;
+    margin-left: 35vw;
+    margin-top: 5vw;
+}
+
+#infos-armas { 
+    margin-left: 42vw;
+    margin-top: -20vw;
+    width: 10vw;
+}
+
+#infos-armas img { 
+    width: 7VW;
+}
+
+#infos-armas p { 
+    font-size: 1.7VW;
+    font-weight: bold;
+    color: white ;
+    
+}
+
+#infos-armas button { 
+    background-color: rgba(11, 11, 11, 0.519);
+    font-size: 1.2VW;
+    width: 13vw;
+    height: 3vw;
+    font-weight: bold;
+    color: rgb(85, 84, 84) ;
+    margin-left: -2.5vw;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: rgb(76, 76, 76);
+    border-radius: 1vw;
+    transition: 0.5s;
+
+
+}
+
+#infos-armas button:hover { 
+    background-color: rgba(0, 0, 0, 0.519);
+    font-size: 1.2VW;
+    width: 13vw;
+    height: 3vw;
+    font-weight: bold;
+    color: rgb(153, 153, 153) ;
+    margin-left: -2.5vw;
+    border: solid;
+    border-width: 0.1vw;
+    border-color: rgb(76, 76, 76);
+    border-radius: 1vw;
+    cursor: pointer;
+
+}
